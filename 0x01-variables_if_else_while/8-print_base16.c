@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-char case_16;
+char base_16;
 
 for (base_16 = 48; base_16 <=57; base_16++)
 {
