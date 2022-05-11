@@ -1,24 +1,36 @@
-/*
- * File: 1-init_dog.c
- * Author: Yovo Koffi Vianney
- */
+#include <stddef.h>
 #include "function_pointers.h"
 
 /**
- * int_index - searches for an integer
- * @array: input array
- * @size: size of array
- * @cmp: comparison function
- * Return: index of integer found in cmp
- */
+ * int_index - a function that searches for an integer
+ *
+ * @array: pointer to array
+ * @size: size of @array
+ * @cmp: pointer to function call to check index in array
+ *       if it matches
+ *
+ * Return: Always 0 (Success)
+*/
+
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int i;
+	int index;
+	bool y;
 
-	if (size > 0 && cmp && size && array)
-		for (i = 0; i <= size; i++)
-			if (cmp(array[i]))
-				return (i);
+	if (array != NULL && size > 0 && cmp != NULL)
+	{
+		if (size <= 0)
+			return (-1);
+
+		for (index = 0; index < size; index++)
+		{
+			y = cmp(array[index]);
+			if (y == TRUE)
+				return (index);
+		}
+	}
+
 	return (-1);
 
 }
+
