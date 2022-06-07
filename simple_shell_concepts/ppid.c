@@ -13,7 +13,7 @@ int main(void)
 
 	my_pid = getpid();
 	printf("Process ID: %u\n", my_pid);
-	ppid = getppid();
+	my_ppid = getppid();
 	printf("Parent Process ID: %u\n", my_ppid);
 	return (0);
 }
