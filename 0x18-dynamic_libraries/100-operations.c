@@ -3,26 +3,32 @@
 
 int add(int x, int y)
 {
-	int sum = x+y;
-	return sum;
+	int summ = x+y;
+	return summ;
 }
 
-int multiply(int x, int y)
+int mul(int x, int y)
 {
-	int mul = x*y;
-	return mul;
+	int mull = x*y;
+	return mull;
 }
 
-int divide(int x, int y)
+//float div(int x, int y)
+//{
+//	float divv =x/y;
+//	return divv;
+//} 
+
+
+int sub(int x, int y)
 {
-	int div =x/y;
-	return div;
+	int subb =x-y;
+	return subb;
 } 
 
 
-int subtruct(int x, int y)
+int mod(int x , int y)
 {
-	int sub =x-y;
-	return sub;
-} 
-
+	int modd = x%y;
+	return modd;
+}
