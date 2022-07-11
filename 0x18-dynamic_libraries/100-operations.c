@@ -1,34 +1,28 @@
-#include<stdio.h>
-#include<stdlib.h>
-
-int add(int x, int y)
+int add(int a, int b)
 {
-	int summ = x+y;
-	return summ;
+	return (a + b);
 }
 
-int mul(int x, int y)
+int sub(int a, int b)
 {
-	int mull = x*y;
-	return mull;
+	return (a - b);
 }
 
-//float div(int x, int y)
-//{
-//	float divv =x/y;
-//	return divv;
-//} 
-
-
-int sub(int x, int y)
+int mul(int a, int b)
 {
-	int subb =x-y;
-	return subb;
-} 
+	return(a * b);
+}
 
-
-int mod(int x , int y)
+int div(int a, int b)
 {
-	int modd = x%y;
-	return modd;
+	if (b != 0)
+		return (a / b);
+	return (0);
+}
+
+int mod(int a, int b)
+{
+	if (b != 0)
+		return (a % b);
+	return (0);
 }
