@@ -8,19 +8,19 @@ An introductory project on:
 - Ubuntu 14.04
 - gcc 4.8.4
 - GNU Make 3.81
-- Source files for all Makefiles: [main.c](main.c), [holberton.c](holberton.c), [m.h](m.h)
+
 ## File Description
 ### Mandatory
 **[0-Makefile](0-Makefile)**
   * Requirements:
-    * name of the executable: `holberton`
+    * name of the executable: `school`
     * rules: `all`
       * `all`: builds your executable
     * variables: none
     
 **[1-Makefile](1-Makefile)**
   * Requirements:
-    * name of the executable: `holberton`
+    * name of the executable: `school`
     * rules: `all`
       * `all`: builds your executable
     * variables: `CC`, `SRC`
@@ -29,7 +29,7 @@ An introductory project on:
       
 **[2-Makefile](2-Makefile)**
   * Requirements:
-    * name of the executable: `holberton`
+    * name of the executable: `school`
     * rules: `all`
       * `all`: builds your executable
     * variables: `CC`, `SRC`, `OBJ`, `NAME`
@@ -42,7 +42,7 @@ An introductory project on:
 
 **[3-Makefile](3-Makefile)**
   * Requirements:
-    * name of the executable: `holberton`
+    * name of the executable: `school`
     * rules: `all`, `clean`, `oclean`, `fclean`, `re`
       * `all`: builds your executable
       * `clean`: deletes all Emacs and Vim temporary files along with the executable
@@ -61,7 +61,7 @@ An introductory project on:
 
 **[4-Makefile](4-Makefile)**
   * Requirements:
-    * name of the executable: `holberton`
+    * name of the executable: `school`
     * rules: `all`, `clean`, `oclean`, `fclean`, `re`
       * `all`: builds your executable
       * `clean`: deletes all Emacs and Vim temporary files along with the executable
@@ -82,7 +82,7 @@ An introductory project on:
 ### Advanced
 **[100-Makefile](100-Makefile)**
   * Requirements:
-    * name of the executable: `holberton`
+    * name of the executable: `school`
     * rules: `all`, `clean`, `oclean`, `fclean`, `re`
       * `all`: builds your executable
       * `clean`: deletes all Emacs and Vim temporary files along with the executable
